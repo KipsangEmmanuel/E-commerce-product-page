@@ -13,6 +13,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid rgb(225, 224, 224);
   }
 
   .logo {
@@ -52,6 +53,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    justify-content: center;
   }
 
   .column {
@@ -65,8 +67,7 @@ h2 {
   .card1 {
     background-color: rgb(244, 248, 251);
     padding: 20px;
-    width: 300px;
-    margin-left: 100px;
+    width: 90%;
   }
   img{
     border-radius: 5px;
@@ -87,7 +88,7 @@ h2 {
     background-color: white;
     padding: 10px;
     text-align: center;
-    margin-right: 10px; /* Add space between square cards */
+    margin-right: 10px; 
     margin-bottom: 10px;
   }
 
@@ -98,11 +99,15 @@ h2 {
 
   .card3 {
     background-color: rgb(254, 255, 254);
+    /* background-color: rgb(95, 210, 95); */
     padding: 20px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /* text-align: center; */
     margin-top: 90px;
     height: 250px;
-    width: 200px;
+    width: 70%;
   }
 
   h2 {
@@ -116,10 +121,15 @@ h2 {
   }
 
   .add {
-    background-color: lightblue;
-    padding: 10px;
-    text-align: center;
+    background-color: rgb(243, 247, 248);
+    padding: 10px 30px;
+    color: orange;
+    /* text-align: center; */
     margin-bottom: 10px;
+  }
+  .add>h4>span{
+    color: black;
+    margin: 0 10px;
   }
   .comp{
     color: orange; 
@@ -131,19 +141,42 @@ h2 {
     display: flex;
     justify-content: space-between;
   }
+
   .point {
     font-weight: bold;
   }
   .fif{
     color: orange;
-  }
-  .btn {
-    background-color: aliceblue;
     font-weight: bold;
-    color: orange;
-    border: none;
   }
-  .add{
-    background-color: aliceblue;
-    color: orange;
+ 
+
+  
+  .addCard{
+    background-color: orange;
+    color: white;
+    border-radius: 3px;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* width: 100%; */
+ 
+  }
+  .para{
+    color: grey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .nums {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 30px;
+  }
+
+  .dollar>h4{
+    color: gray;
+    text-decoration: line-through;
   }
